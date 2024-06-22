@@ -25,7 +25,7 @@
       "value": "Blocks.DIRT#1"
     },
     "portalParticles": {
-      "value": "LAVA"
+      "value": "VILLAGER_ANGRY"
     },
     "portalLuminance": 11,
     "portalSound": {
