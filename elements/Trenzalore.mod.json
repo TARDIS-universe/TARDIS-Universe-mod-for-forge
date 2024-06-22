@@ -1,0 +1,50 @@
+{
+  "_fv": 60,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Trenzalorebiome1"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "fluidBlock": {
+      "value": "Blocks.BUBBLE_COLUMN"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.DIRT#1"
+    },
+    "portalParticles": {
+      "value": "LAVA"
+    },
+    "portalLuminance": 11,
+    "portalSound": {
+      "value": "CUSTOM:unstabletardisportalsounds"
+    },
+    "enableIgniter": true,
+    "igniterName": "Trenzalore Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "tardislighter",
+    "portalTexture": "trenzaloreblockportal",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "TrenzalorePortalTriggerUsed"
+    }
+  }
+}

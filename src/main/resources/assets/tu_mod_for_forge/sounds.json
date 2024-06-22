@@ -1,0 +1,11 @@
+{
+  "unstabletardisportalsounds": {
+    "subtitle": "subtitles.unstabletardisportalsounds",
+    "sounds": [
+      {
+        "name": "tu_mod_for_forge:unstable_flight_loop",
+        "stream": false
+      }
+    ]
+  }
+}

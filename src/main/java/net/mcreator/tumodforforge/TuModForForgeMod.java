@@ -17,6 +17,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.tumodforforge.init.TuModForForgeModTabs;
+import net.mcreator.tumodforforge.init.TuModForForgeModSounds;
+import net.mcreator.tumodforforge.init.TuModForForgeModItems;
+import net.mcreator.tumodforforge.init.TuModForForgeModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +41,12 @@ public class TuModForForgeMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		TuModForForgeModSounds.REGISTRY.register(bus);
+		TuModForForgeModBlocks.REGISTRY.register(bus);
+
+		TuModForForgeModItems.REGISTRY.register(bus);
+
+		TuModForForgeModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

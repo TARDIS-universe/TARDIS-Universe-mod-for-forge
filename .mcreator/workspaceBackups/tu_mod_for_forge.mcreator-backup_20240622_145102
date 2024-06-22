@@ -3,7 +3,6 @@
     {
       "name": "Trenzalorebiome1",
       "type": "biome",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalorebiome_1",
@@ -21,7 +20,6 @@
     {
       "name": "TrenzalorePortalTriggerUsed",
       "type": "procedure",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalore_portal_trigger_used",
@@ -46,29 +44,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      }
-    },
-    {
-      "name": "Trenzalore",
-      "type": "dimension",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trenzalore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tumodforforge/world/dimension/TrenzaloreDimension.java",
-          "src/main/resources/assets/tu_mod_for_forge/models/item/trenzalore.json",
-          "src/main/java/net/mcreator/tumodforforge/item/TrenzaloreItem.java",
-          "src/main/resources/data/tu_mod_for_forge/dimension_type/trenzalore.json",
-          "src/main/resources/assets/tu_mod_for_forge/models/block/trenzalore_portal_ns.json",
-          "src/main/resources/assets/tu_mod_for_forge/blockstates/trenzalore_portal.json",
-          "src/main/java/net/mcreator/tumodforforge/world/teleporter/TrenzalorePortalShape.java",
-          "src/main/java/net/mcreator/tumodforforge/block/TrenzalorePortalBlock.java",
-          "src/main/resources/data/tu_mod_for_forge/dimension/trenzalore.json",
-          "src/main/resources/assets/tu_mod_for_forge/models/block/trenzalore_portal_ew.json",
-          "src/main/java/net/mcreator/tumodforforge/world/teleporter/TrenzaloreTeleporter.java"
         ]
       }
     }
@@ -121,10 +96,6 @@
     "BIOMES:minecraft:has_structure/woodland_mansion": [
       "~CUSTOM:Trenzalorebiome1"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.DIRT#1",
-      "~Blocks.GRASS"
-    ],
     "BIOMES:minecraft:has_structure/mineshaft_mesa": [
       "~CUSTOM:Trenzalorebiome1"
     ],
@@ -152,7 +123,6 @@
   },
   "language_map": {
     "en_us": {
-      "item.tu_mod_for_forge.trenzalore": "Trenzalore Portal Igniter",
       "subtitles.unstabletardisportalsounds": "Unstable TARDIS Portal",
       "biome.tu_mod_for_forge.trenzalorebiome_1": "Trenzalorebiome 1"
     }
