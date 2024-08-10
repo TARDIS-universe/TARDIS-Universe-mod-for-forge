@@ -132,6 +132,279 @@
           "src/main/resources/assets/tu_mod_for_forge/blockstates/meshblockbuds.json"
         ]
       }
+    },
+    {
+      "name": "Zeiton",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonItem.java",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/block/ZeitonOreBlock.java",
+          "src/main/resources/data/tu_mod_for_forge/loot_tables/blocks/zeiton_ore.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/block/zeiton_ore.json",
+          "src/main/resources/assets/tu_mod_for_forge/blockstates/zeiton_ore.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_ore.json",
+          "src/main/resources/data/tu_mod_for_forge/worldgen/configured_feature/zeiton_ore.json",
+          "src/main/resources/data/tu_mod_for_forge/forge/biome_modifier/zeiton_ore_biome_modifier.json",
+          "src/main/resources/data/tu_mod_for_forge/worldgen/placed_feature/zeiton_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_block.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/block/zeiton_block.json",
+          "src/main/java/net/mcreator/tumodforforge/block/ZeitonBlockBlock.java",
+          "src/main/resources/assets/tu_mod_for_forge/blockstates/zeiton_block.json",
+          "src/main/resources/data/tu_mod_for_forge/loot_tables/blocks/zeiton_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_pickaxe.json",
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonAxeItem.java",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_sword.json",
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_shovel.json",
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonHoeItem.java",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_armor_chestplate.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_armor_helmet.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_armor_boots.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/zeiton_armor_leggings.json",
+          "src/main/java/net/mcreator/tumodforforge/item/ZeitonArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeitonArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeiton_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tu_mod_for_forge/recipes/zeiton_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -160,6 +433,10 @@
     ],
     "BIOMES:minecraft:has_structure/pillager_outpost": [
       "~CUSTOM:Trenzalorebiome1"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ZeitonBlock",
+      "~CUSTOM:ZeitonOre"
     ],
     "BIOMES:minecraft:has_structure/jungle_temple": [
       "~CUSTOM:Trenzalorebiome1"
@@ -198,6 +475,10 @@
     "BIOMES:minecraft:has_structure/nether_fossil": [
       "~CUSTOM:Trenzalorebiome1"
     ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ZeitonBlock",
+      "~CUSTOM:ZeitonOre"
+    ],
     "BIOMES:minecraft:has_structure/bastion_remnant": [
       "~CUSTOM:Trenzalorebiome1"
     ],
@@ -216,7 +497,19 @@
       "item.tu_mod_for_forge.trenzalore": "Trenzalore Portal Igniter",
       "subtitles.unstabletardisportalsounds": "Unstable TARDIS Portal",
       "biome.tu_mod_for_forge.trenzalorebiome_1": "Trenzalorebiome 1",
-      "block.tu_mod_for_forge.meshblockbuds": "Meshblockbuds"
+      "block.tu_mod_for_forge.meshblockbuds": "Meshblockbuds",
+      "item.tu_mod_for_forge.zeiton_pickaxe": "Zeiton Pickaxe",
+      "item.tu_mod_for_forge.zeiton_sword": "Zeiton Sword",
+      "block.tu_mod_for_forge.zeiton_block": "Block of Zeiton",
+      "item.tu_mod_for_forge.zeiton_hoe": "Zeiton Hoe",
+      "item.tu_mod_for_forge.zeiton_armor_helmet": "Zeiton Helmet",
+      "item.tu_mod_for_forge.zeiton_shovel": "Zeiton Shovel",
+      "item.tu_mod_for_forge.zeiton_armor_boots": "Zeiton Boots",
+      "item.tu_mod_for_forge.zeiton_armor_leggings": "Zeiton Leggings",
+      "block.tu_mod_for_forge.zeiton_ore": "Zeiton Ore",
+      "item.tu_mod_for_forge.zeiton_axe": "Zeiton Axe",
+      "item.tu_mod_for_forge.zeiton_armor_chestplate": "Zeiton Chestplate",
+      "item.tu_mod_for_forge.zeiton": "Zeiton"
     }
   },
   "foldersRoot": {

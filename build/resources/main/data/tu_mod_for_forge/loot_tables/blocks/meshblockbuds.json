@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tu_mod_for_forge:blocks/meshblockbuds",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tu_mod_for_forge:meshblockbuds"
+        }
+      ]
+    }
+  ]
+}

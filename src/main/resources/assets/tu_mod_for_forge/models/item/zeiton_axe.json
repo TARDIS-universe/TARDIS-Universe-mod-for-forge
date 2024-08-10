@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tu_mod_for_forge:item/zeiton_axe"
+  }
+}

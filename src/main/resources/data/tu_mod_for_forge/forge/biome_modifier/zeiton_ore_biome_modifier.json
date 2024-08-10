@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "tu_mod_for_forge:zeiton_ore",
+  "step": "underground_ores"
+}

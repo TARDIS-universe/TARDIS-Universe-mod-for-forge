@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.tumodforforge.block.TrenzalorePortalBlock;
+import net.mcreator.tumodforforge.block.MeshblockbudsBlock;
 import net.mcreator.tumodforforge.TuModForForgeMod;
 
 public class TuModForForgeModBlocks {

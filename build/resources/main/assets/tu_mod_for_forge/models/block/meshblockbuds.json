@@ -1,0 +1,18 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "children": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "tu_mod_for_forge:models/item/model.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "#m_513ef0ec-1781-852c-b53a-ee3dc2c4b87d": "tu_mod_for_forge:block/"
+      }
+    }
+  },
+  "textures": {
+    "particle": "tu_mod_for_forge:block/tesxture"
+  },
+  "render_type": "solid"
+}

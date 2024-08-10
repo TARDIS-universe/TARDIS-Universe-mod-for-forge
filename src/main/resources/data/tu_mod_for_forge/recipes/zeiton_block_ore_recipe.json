@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tu_mod_for_forge:zeiton_block"
+    }
+  ],
+  "result": {
+    "item": "tu_mod_for_forge:zeiton",
+    "count": 9
+  }
+}

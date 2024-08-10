@@ -71,6 +71,67 @@
           "src/main/java/net/mcreator/tumodforforge/world/teleporter/TrenzaloreTeleporter.java"
         ]
       }
+    },
+    {
+      "name": "Djwhenrun",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "djwhenrun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/procedures/DjwhenrunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dj",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/command/DjCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Meshblockbuds",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meshblockbuds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tumodforforge/block/MeshblockbudsBlock.java",
+          "src/main/resources/data/tu_mod_for_forge/loot_tables/blocks/meshblockbuds.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/block/meshblockbuds.json",
+          "src/main/resources/assets/tu_mod_for_forge/models/item/meshblockbuds.json",
+          "src/main/resources/assets/tu_mod_for_forge/blockstates/meshblockbuds.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -154,7 +215,8 @@
     "en_us": {
       "item.tu_mod_for_forge.trenzalore": "Trenzalore Portal Igniter",
       "subtitles.unstabletardisportalsounds": "Unstable TARDIS Portal",
-      "biome.tu_mod_for_forge.trenzalorebiome_1": "Trenzalorebiome 1"
+      "biome.tu_mod_for_forge.trenzalorebiome_1": "Trenzalorebiome 1",
+      "block.tu_mod_for_forge.meshblockbuds": "Meshblockbuds"
     }
   },
   "foldersRoot": {

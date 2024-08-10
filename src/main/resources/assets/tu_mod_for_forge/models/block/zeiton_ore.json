@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tu_mod_for_forge:block/zeiton_ore",
+    "particle": "tu_mod_for_forge:block/zeiton_ore"
+  },
+  "render_type": "solid"
+}

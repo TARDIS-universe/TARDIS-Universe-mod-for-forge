@@ -23,6 +23,7 @@ public class TuModForForgeModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TuModForForgeModItems.TRENZALORE.get());
+			tabData.accept(TuModForForgeModBlocks.MESHBLOCKBUDS.get().asItem());
 		}
 	}
 }
